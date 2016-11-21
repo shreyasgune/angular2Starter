@@ -34,8 +34,17 @@ Note, that what you are writing in is Typescript and not Javascript. It's a supe
 A directive is how we add dynamic behaviour to HTML. 
 Kinds of directives : Component , Sturctural and Attribute.
 
+Structural directives—change the DOM layout by adding and removing DOM elements (eg. `ngClass`)
+
+Attribute directives—change the appearance or behavior of an element. (eg `ngIf`)
+An attribute directive minimally requires building a controller class annotated with @Directive, which specifies the selector that identifies the attribute. The controller class implements the desired directive behavior.
+
 ##Component
-It's a directive with a template. How do you make a Component?
+This is a directive that has its own template. Components are the main way we build and specify elements and logic on the page.
+Component decorator allows you to mark a class as an Angular component and provide additional metadata that determines how the component should be processed, instantiated and used at runtime.
+[More reading](https://angular.io/docs/ts/latest/api/core/index/Component-decorator.html)
+
+How do you make a Component?
 using cli :: `ng g component my-new-component`
 
 or custome file::
