@@ -1,4 +1,4 @@
-#Angular2 for N00bs
+#Angular2 Simplified (Sorta)
 
 So, this is sort of a short demonstration for my own reference and anyone who's probably wondering how to Angular2 but ain't quite there yet.
 There are a lot of moving parts to Angular2 and things can get a bit messy, so this guide will have
