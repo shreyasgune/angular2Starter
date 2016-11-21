@@ -368,7 +368,7 @@ export class YourService{
 		//us additional functionality on our http calls- one of which is to return an array.
 	}
 }
-
+```
 5. Listen for data returned by this request.
 So now, in our `myCompotent.ts` , in the `ngOnInit` we subscribe as a listener.
 ```
